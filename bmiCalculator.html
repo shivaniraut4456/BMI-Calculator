@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        
+       .block{
+
+        height: 60px;
+        width: 400px;
+        background-color: #ff7979e3;
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        left: 550px;
+       }
+        
+        .innerBlock{
+            width: 400px;
+            height: 380px;
+            box-shadow: 13px 13px 10px -8px rgb(82, 80, 80);
+        }
+        
+        #headline{
+            padding-top: 20px;
+        }
+       
+        p{
+            font-family: 'Mooli', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+
+        h2,p{
+            
+            text-align: center;
+        }
+
+        input[type=number]{
+            height: 25px;
+            width: 200px;
+            border-color: blue;
+        }
+
+        button{
+            font-size: x-large;
+            height: 40px;
+            width: 200px;
+            background-color: rgba(110, 69, 206, 0.51);
+            color: #31ff84;
+            border-radius: 12px;
+            font-family: 'Libre Baskerville', serif;
+            
+        }
+    </style>
+
+
+</head>
+<body>
+   <div class="block">
+
+    <h2>BMI Calculator</h2>
+       <div class="innerBlock">
+       
+        
+            <p id="headline">Enter height and weight:</p>
+            <p><label for="">Height</label></p>
+            <p><input type="number" placeholder="Enter your height" autofocus></p>
+            <p><label for="">Weight</label></p>
+            <p><input type="number" placeholder="Enter your weight"></p>
+            <p><button><b>Calculate</b></button></p>
+            <p><label for="">Your BMI</label></p>
+            <p><input type="number"></p>
+
+       </div>
+   </div>
+</body>
+</html>
